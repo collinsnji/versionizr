@@ -1,0 +1,34 @@
+{
+	"name": "versionizr",
+	"version": "1.0.0",
+	"description": "Easily update the version of your nodejs module before publishing",
+	"main": "./lib/index.js",
+	"scripts": {
+		"test": "mocha test"
+	},
+	"engines": {
+		"node": ">=4.8.3"
+	},
+	"bin": {
+		"versionizr": "./bin/versionizr.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/collinsnji/versionizr.git"
+	},
+	"keywords": [
+		"version",
+		"update"
+	],
+	"bugs": {
+		"url": "https://github.com/collinsnji/versionizr/issues"
+	},
+	"homepage": "https://github.com/collinsnji/versionizr#readme",
+	"preferGlobal": true,
+	"author": "Collin Grimm <collin.grimm@protonmail.ch> (https://collingrimm.me)",
+	"license": "MIT",
+	"devDependencies": {
+		"chai": "^4.1.0",
+		"mocha": "^3.4.2"
+	}
+}
